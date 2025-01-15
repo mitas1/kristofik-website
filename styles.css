@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #fefefe;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+nav,
+section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  padding: 10px;
+}
+
+section {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+ol {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+
+@media (max-width: 600px) {
+  nav,
+  section {
+    width: 100%;
+  }
+}
+
+.background-section {
+  background-image: ("./Shutterstock_1774733423-AI-Aviation-1200x630-1.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+background-size: cover;
