@@ -69,9 +69,14 @@ ol {
 }
 
 .background-section {
-  background-image: ("./Shutterstock_1774733423-AI-Aviation-1200x630-1.jpg");
+  background-image: url("./Shutterstock_1774733423-AI-Aviation-1200x630-1.jpg");
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
+  color: #FFD700;
 }
-background-size: cover;
+
+.background-section {
+  background-size: cover;
+text-shadow: 2px 2px 4px black; /* Horizontálny, vertikálny posun a rozmazanie */
+}
